@@ -91,6 +91,7 @@ data class DownloadProgressState(
     var lastUpdatedMs: Long,
     var etaMs: Long?
 ) {
+    // method to update the state and progress of the download
     fun eta(context: Context): String {
         return when (state) {
             DownloadState.IsDownloading -> etaToString(etaMs)
@@ -799,7 +800,7 @@ object NotificationHelper {
         if (context == null) return
         val state = stateProgressState.state
         var timeformat = ""
-        if (state == DownloadState.IsDownloading) { // ETA
+        if (state == DownloadState.IsDownloading) { // ETA is stand for Estimated Time of Arrival
             timeformat = etaToString(stateProgressState.etaMs)
         }
 

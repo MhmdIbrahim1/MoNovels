@@ -18,14 +18,14 @@
                 android:key="@string/search_providers_list_key"
                 android:title="Search Providers"
                 app:useSimpleSummaryProvider="true" />
-        <!--<ListPreference
-                app:icon="@drawable/ic_baseline_grid_view_24"
-                android:key="@string/grid_format_key"
-                android:title="Display Mode"
-                app:defaultValue="grid"
-                app:useSimpleSummaryProvider="true"
-                android:entries="@array/GridFormat"
-                android:entryValues="@array/GridFormatData" />-->
+<!--        <ListPreference-->
+<!--                app:icon="@drawable/ic_baseline_grid_view_24"-->
+<!--                android:key="@string/grid_format_key"-->
+<!--                android:title="Display Mode"-->
+<!--                app:defaultValue="grid"-->
+<!--                app:useSimpleSummaryProvider="true"-->
+<!--                android:entries="@array/GridFormat"-->
+<!--                android:entryValues="@array/GridFormatData" />-->
         <Preference
                 android:icon="@drawable/ic_baseline_language_24"
                 android:key="@string/provider_lang_key"
@@ -110,10 +110,10 @@
         <Preference
                 android:title="Github"
                 android:icon="@drawable/ic_github_logo"
-                app:summary="https://github.com/LagradOst/QuickNovel">
+                app:summary="https://github.com/MhmdIbrahim1/MoNovels">
             <intent
                     android:action="android.intent.action.VIEW"
-                    android:data="https://github.com/LagradOst/QuickNovel" />
+                    android:data="https://github.com/MhmdIbrahim1/MoNovels" />
         </Preference>
 
         <Preference
@@ -128,10 +128,10 @@
         <Preference
                 android:title="Join Discord"
                 android:icon="@drawable/ic_baseline_discord_24"
-                app:summary="https://discord.gg/5Hus6fM">
+                app:summary="https://discord.gg/c4NuCjrN">
             <intent
                     android:action="android.intent.action.VIEW"
-                    android:data="https://discord.gg/5Hus6fM" />
+                    android:data="https://discord.gg/c4NuCjrN" />
         </Preference>
     </PreferenceCategory>
 </PreferenceScreen>

@@ -30,6 +30,7 @@
             android:name="com.lagradost.quicknovel.ui.settings.SettingsFragment"
             android:label="@string/title_download"
             android:layout_height="match_parent"
+            tools:layout="">
             >
     </fragment>
     <fragment
